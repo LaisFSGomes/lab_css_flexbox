@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+.wrapper{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.elemento {
+  background: blue;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+#elemento2 {
+  /* align-self: center; */
+}

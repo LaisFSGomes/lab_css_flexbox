@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+.wrapper{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elemento {
+  background: blue;
+  height: 20vh;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+#elemento2 {
+  background: red;
+  align-self: baseline;
+  height: 90%;
+}
